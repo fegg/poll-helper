@@ -1,2 +1,5 @@
-# poll-helper
-简单的 poll
+### 使用说明
+
+```typescript
+
+```

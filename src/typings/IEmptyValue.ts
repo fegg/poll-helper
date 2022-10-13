@@ -1,0 +1,1 @@
+type IEmptyValue<T> = null | undefined | T;

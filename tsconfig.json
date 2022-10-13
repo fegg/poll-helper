@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "outDir": "dist",
+        "module": "CommonJS",
+        "target": "ES2015",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "strict": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "lib": ["DOM", "ES2020"],
+        "declaration": true,
+        "typeRoots": ["src/typings", "node_modules/@types"]
+    },
+    "include": ["src"],
+    "exclude": ["src/tests"]
+}
